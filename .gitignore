@@ -4,3 +4,14 @@
 *.jar
 *.war
 *.ear
+
+
+# IDEA files
+*.iml
+/.idea
+/war/*.iml
+/config/*.iml
+# Maven structure files
+/war/target
+/config/target
+

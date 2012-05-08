@@ -37,17 +37,17 @@
       <type>org.exoplatform.portal.config.NewPortalConfigListener</type>
       <description>this listener init the portal configuration</description>
       <init-params>
-        <!--value-param>
+        <value-param>
           <name>default.portal</name>
           <description>The default portal for checking db is empty or not</description>
           <value>classic</value>
-        </value-param-->
+        </value-param>
         <object-param>
           <name>site.templates.location</name>
           <description>description</description>
           <object type="org.exoplatform.portal.config.SiteConfigTemplates">
             <field name="location">
-              <string>war:/conf/acme-portal/portal</string>
+              <string>war:/conf/openparliament-portal/portal</string>
             </field>
             <field name="portalTemplates">
               <collection type="java.util.HashSet">
@@ -65,7 +65,7 @@
             <field name="predefinedOwner">
               <collection type="java.util.HashSet">
                 <value>
-                  <string>acme</string>
+                  <string>openparliament</string>
                 </value>
               </collection>
             </field>
@@ -73,7 +73,7 @@
               <string>portal</string>
             </field>
             <field name="templateLocation">
-              <string>war:/conf/acme-portal/portal</string>
+              <string>war:/conf/openparliament-portal/portal</string>
             </field>
           </object>
         </object-param>
@@ -92,7 +92,7 @@
               <string>group</string>
             </field>
             <field name="templateLocation">
-              <string>war:/conf/acme-portal/portal</string>
+              <string>war:/conf/openparliament-portal/portal</string>
             </field>
           </object>
         </object-param>

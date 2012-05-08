@@ -29,7 +29,7 @@
   <external-component-plugins>
     <target-component>org.exoplatform.services.cms.views.ApplicationTemplateManagerService</target-component>
     <component-plugin>
-      <name>acme.clv.templates.plugin</name>
+      <name>openparliament.clv.templates.plugin</name>
       <set-method>addPlugin</set-method>
       <type>org.exoplatform.services.cms.views.PortletTemplatePlugin</type>
       <description>This plugin is used to import views templates for Content List Viewer</description>
@@ -40,7 +40,7 @@
         </value-param>
         <value-param>
           <name>portlet.template.path</name>
-          <value>war:/conf/acme-portal/wcm/artifacts/application-templates/content-list-viewer</value>
+          <value>war:/conf/openparliament-portal/wcm/artifacts/application-templates/content-list-viewer</value>
         </value-param>
         <object-param>
           <name>Category Tree</name>

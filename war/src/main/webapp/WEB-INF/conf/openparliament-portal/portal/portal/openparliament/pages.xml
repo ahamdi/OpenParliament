@@ -1315,8 +1315,7 @@
     </portlet-application>
   </page>
 
-
-	<page>
+  <page>
 		<name>newAccount</name>
 		<title>newAccount</title>
 		<access-permissions>Everyone</access-permissions>
@@ -1437,5 +1436,23 @@
       <show-application-mode>false</show-application-mode>
     </portlet-application>
   </page>
+
+    <page>
+        <name>forum</name>
+        <title>Forum</title>
+        <access-permissions>*:/platform/users</access-permissions>
+        <edit-permission>*:/platform/administrators</edit-permission>
+        <portlet-application>
+            <portlet>
+                <application-ref>forum</application-ref>
+                <portlet-ref>ForumPortlet</portlet-ref>
+            </portlet>
+            <title>Forum Portlet</title>
+            <access-permissions>Everyone</access-permissions>
+            <show-info-bar>false</show-info-bar>
+            <show-application-state>false</show-application-state>
+            <show-application-mode>false</show-application-mode>
+        </portlet-application>
+    </page>
 
 </page-set>

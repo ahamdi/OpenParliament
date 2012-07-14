@@ -31,7 +31,7 @@
       <name>overview</name>
       <label>#{portal.acme.overview}</label>
       <visibility>DISPLAYED</visibility>
-      <page-reference>portal::acme::overview</page-reference>
+      <page-reference>portal::openparliament::overview</page-reference>
     </node>
     
     <node>
@@ -39,7 +39,7 @@
       <name>news</name>
       <label>#{portal.acme.news}</label>
       <visibility>DISPLAYED</visibility>
-      <page-reference>portal::acme::news</page-reference>
+      <page-reference>portal::openparliament::news</page-reference>
     </node>
 
     <node>
@@ -47,7 +47,7 @@
       <name>products</name>
       <label>#{portal.acme.products}</label>
       <visibility>DISPLAYED</visibility>
-      <page-reference>portal::acme::products</page-reference>
+      <page-reference>portal::openparliament::products</page-reference>
     </node>
 
     <node>
@@ -55,20 +55,28 @@
       <name>newsletters</name>
       <label>#{portal.acme.newsletters}</label>
       <visibility>DISPLAYED</visibility>
-      <page-reference>portal::acme::newsletters</page-reference>
+      <page-reference>portal::openparliament::newsletters</page-reference>
+    </node>
+
+    <node>
+      <uri>forum</uri>
+      <name>forum</name>
+      <label>Discussion</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::openparliament::forum</page-reference>
     </node>
 
     <node>
       <uri>contactus</uri>
       <name>contactus</name>
       <label>#{portal.acme.contactus}</label>
-      <page-reference>portal::acme::contactus</page-reference>
+      <page-reference>portal::openparliament::contactus</page-reference>
       <node>
         <uri>contactus/confirmation</uri>
         <name>confirmation</name>
         <label>#{portal.acme.confirmation}</label>
         <visibility>HIDDEN</visibility>
-        <page-reference>portal::acme::confirmation</page-reference>
+        <page-reference>portal::openparliament::confirmation</page-reference>
       </node>
     </node>
 
@@ -77,7 +85,7 @@
       <name>detail</name>
       <label>#{portal.acme.detail}</label>
       <visibility>SYSTEM</visibility>
-      <page-reference>portal::acme::detail</page-reference>
+      <page-reference>portal::openparliament::detail</page-reference>
     </node>
 
     <node>
@@ -85,7 +93,7 @@
       <name>printviewer</name>
       <label>#{portal.acme.printviewer}</label>
       <visibility>SYSTEM</visibility>
-      <page-reference>portal::acme::printviewer</page-reference>
+      <page-reference>portal::openparliament::printviewer</page-reference>
     </node>
 
     <node>
@@ -93,7 +101,7 @@
       <name>searchResult</name>
       <label>#{portal.acme.searchResult}</label>
       <visibility>HIDDEN</visibility>
-      <page-reference>portal::acme::searchResult</page-reference>
+      <page-reference>portal::openparliament::searchResult</page-reference>
     </node>
 
     <node>
@@ -101,7 +109,7 @@
       <name>newAccount</name>
       <label>#{portal.acme.newAccount}</label>
       <visibility>HIDDEN</visibility>
-      <page-reference>portal::acme::newAccount</page-reference>
+      <page-reference>portal::openparliament::newAccount</page-reference>
     </node>
 
     <node>
@@ -109,7 +117,7 @@
       <name>groupnavigation</name>
       <label>#{portal.acme.groupnavigation}</label>
       <visibility>SYSTEM</visibility>
-      <page-reference>portal::acme::groupnavigation</page-reference>     
+      <page-reference>portal::openparliament::groupnavigation</page-reference>
     </node>
     
     <node>
@@ -117,7 +125,7 @@
       <name>portalnavigation</name>
       <label>#{portal.acme.portalnavigation}</label>
       <visibility>SYSTEM</visibility>
-      <page-reference>portal::acme::portalnavigation</page-reference>      
+      <page-reference>portal::openparliament::portalnavigation</page-reference>
     </node>
 
   </page-nodes>

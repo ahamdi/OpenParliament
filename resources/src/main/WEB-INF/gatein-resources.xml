@@ -18,23 +18,21 @@
     Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
     02110-1301 USA, or see the FSF site: http://www.fsf.org.
 
---><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-  <groupId>org.exoplatform.platform</groupId>
-  <artifactId>exo.platform.parent</artifactId>
-  <version>3.5.2</version>
-  </parent>
-  <groupId>tn.opengovernment</groupId>
-  <artifactId>openparliament</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <name>OpenParliament extension</name>
-  <description>OpenParliament extension Root Pom</description>
-  <modules>
-    <module>config</module>
-    <module>war</module>
-    <module>resources</module>
-      <module>portlets</module>
-  </modules>
-</project>
+-->
+<gatein-resources
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.gatein.org/xml/ns/gatein_resources_1_2 http://www.gatein.org/xml/ns/gatein_resources_1_2"
+    xmlns="http://www.gatein.org/xml/ns/gatein_resources_1_2">
+
+	
+	<!-- portal Skin -->
+	
+    <portal-skin>
+		<skin-name>Default</skin-name>
+		<skin-module>Platform</skin-module>
+		<css-path>/skin/Stylesheet.css</css-path>
+		<css-priority>6</css-priority>
+		<overwrite>true</overwrite>
+	</portal-skin>
+	
+</gatein-resources>

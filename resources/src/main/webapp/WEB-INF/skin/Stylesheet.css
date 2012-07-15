@@ -1,0 +1,923 @@
+/************************
+ *** GENERIC
+ ************************/
+body {
+	background: white;
+}
+
+.UIWCMNavigationPortlet .UINavigationBar a {
+	font-family: lucida sans,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+ 
+#ACMEBody div, #ACMEBody table, #ACMEBody tr, #ACMEBody td, #ACMEBody img, #ACMEBody form, #ACMEBody p {
+	font-family: lucida sans,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+#ContactUSRootContainer div, #ContactUSRootContainer table, #ContactUSRootContainer tr, #ContactUSRootContainer td, #ContactUSRootContainer img, #ContactUSRootContainer form, #ContactUSRootContainer p {
+	font-family: lucida sans,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+#ACMEBanner {
+	margin:0 10px;
+}
+
+#ACMEBanner div, #ACMEBanner table, #ACMEBanner tr, #ACMEBanner td, #ACMEBanner img, #ACMEBanner form, #ACMEBanner p {
+	font-family: lucida sans,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+.UINewsletterPortlet div, .UINewsletterPortlet table, .UINewsletterPortlet tr, .UINewsletterPortlet td, .UINewsletterPortlet img, .UINewsletterPortlet form, .UINewsletterPortlet p {
+	font-family: lucida sans,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+ 
+p {
+	margin: 5px 0;
+}
+
+#UIPortalApplication .UIFooterPortlet {
+	background-color: #DEDFDF;
+	font-family: lucida sans,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+#UIPortalApplication .UIWorkingWorkspace {
+	background-color: transparent;
+	margin: 0 auto;
+}
+
+.UIWorkingWorkspace .UIPageBody {
+	padding: 0px;
+	background: #DEDFDF;
+}
+
+.CenterSearchBox {
+	border: none;
+}
+
+.UIWCMLoginPortlet {
+	border: none;
+}
+
+.UIPageBody .VIEW-PAGEBODY .UIPage {
+	background: #9D9D9D;
+    border-radius: 0 0 9px 9px;
+    padding: 0 8px 8px;
+}
+
+.UIPageBody .VIEW-PAGEBODY .UIPage .UIComponentBlock {
+	background: white;
+    height: 100%;
+}
+
+.TextBanner {
+	padding: 5px;
+}
+
+#ACMESignin, #siteSearchBox {
+	padding: 10px 0px;
+}
+
+
+.ACMELeftTDContainer  {
+	padding: 10px 10px 5px;
+}
+
+.RegisterTDContainer  {
+	width:550px;
+}
+
+.ACMERightTDContainer {
+	width: 230px;
+	padding: 10px 10px 5px 0;
+}
+
+.ACMELeftTDContainer #UIContainer-ACMELeft {
+	width: auto;
+}
+
+.ACMERightTDContainer #UIContainer-ACMERight {
+	width: auto;
+}
+
+.ACMELeftTDContainer .UICLVPortlet {
+	min-width: 0px;
+	padding-bottom: 4px;
+}
+
+.ACMERightTDContainer .UICLVPortlet {
+	min-width: 0px;
+	padding-bottom: 10px;
+}
+
+.PCV .Title {
+    color: #000000;
+    font-size: 24px;
+}
+
+
+.PCV .DateAndMail {
+    color: #999999;
+    font-size: 10px;
+}
+
+
+
+.UIOptionBar {
+	border-style: dotted none;
+	border-color: #999999;
+	border-width: 1px;
+	margin: 0px 0px 5px;
+	background: #FFFFFF;
+	height: 21px; line-height: 21px;
+	overflow: hidden;
+}
+
+.UIOptionBar .BackButton {
+	padding-left: 0px;
+}
+
+.UIOptionBar .ActionIcon {
+	float: right;
+	margin: 0px 10px;
+	height: 21px;
+	color: #333333;
+	cursor: pointer;
+	display: block;
+}
+
+.UIOptionBar .ActionIcon:hover {
+	color: DA0005;
+}
+
+.UIOptionBar .PrintIcon {
+	background: url('/presentation/skin/SingleContentViewer/DefaultSkin/icons/16x16/ActionIcon.gif') no-repeat bottom left;
+	padding-left: 25px;
+}
+
+.UIOptionBar .EmailIcon {
+	background: url('/presentation/skin/SingleContentViewer/DefaultSkin/icons/16x16/ActionIcon.gif') no-repeat top left;
+	padding-left: 20px;
+}
+.UIOptionBar .CommentIcon {
+	background: url('/presentation/skin/SingleContentViewer/DefaultSkin/icons/16x16/ActionIcon.gif') no-repeat left -21px;
+	padding-left: 20px;
+}
+
+
+
+
+/************************
+ *** DOCUMENTS CLV
+ ************************/
+.DocumentsCLVTemplate .CLV {
+	-moz-border-radius: 5px;
+        border-radius:5px 5px 0 0;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	padding-top: 0;
+}
+ 
+.DocumentsCLVTemplate .Contents {
+	padding: 0 10px 8px;
+	background: #efefef url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/Bg.png') repeat-x top left;
+	-moz-border-radius: 5px;
+}
+
+.DocumentsCLVTemplate .TitleBarM {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/TitleBarBg.png') repeat-x top left;
+        border-radius: 4px 4px 0 0;
+	line-height: 30px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.DocumentsCLVTemplate .Contents .Column1 {
+	padding: 7px 0 0;
+}
+
+.DocumentsCLVTemplate .Contents .Column1 .Image {
+	float: left;
+	margin-right: 8px;
+}
+
+.DocumentsCLVTemplate .Contents .Column1 .Title a {
+	color: #5a5a5a;
+	font-size: 11px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+.DocumentsCLVTemplate .Contents .Column1 .Summary {
+	color: #5a5a5a;
+}
+
+.DocumentsCLVTemplate .Contents .Column1 .DateAndMail {
+	color: #b39527;
+	line-height: 18px;
+	font-size: 10px;
+}
+
+.DocumentsCLVTemplate .Contents .Column1 .ReadLink {
+	 text-align: right;
+}
+
+.DocumentsCLVTemplate .Column1 .ReadLink a {
+	 color: #F58220;
+	 font-size: 10px;
+}
+
+.DocumentsCLVTemplate .Column1 .ReadLink a:hover {
+	 color: #0a4da5;
+}
+
+.DocumentsCLVTemplate .Content {
+/*	 margin-top: 8px;*/
+}
+
+.DocumentsCLVTemplate .Content .LastContent{
+	padding: 8px 0px 8px 70px;
+}
+
+.DocumentsCLVTemplate .Contents .Content .Title{
+	color: #565759;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+
+/************************
+ *** ONE COLUMN CLV
+ ************************/
+ .OneColumnCLVTemplate .CLV {
+	-moz-border-radius: 5px;
+        border-radius:5px 5px 0 0;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	padding-top: 0;
+}
+
+.OneColumnCLVTemplate .Contents {
+	 padding: 0 10px;
+	 background: #efefef url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/Bg.png') repeat-x top left;
+	-moz-border-radius: 5px;
+}
+
+.OneColumnCLVTemplate .Content {
+	margin: 0;
+	padding-left: 63px;
+}
+
+.OneColumnCLVTemplate .TitleBarM {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/TitleBarBg.png') repeat-x top left;
+       border-radius: 4px 4px 0 0;
+	line-height: 30px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.UICLVPortlet .OneColumnCLVTemplate .RssIcon {
+    background: url(&quot;/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/RSS.png&quot;) no-repeat left top;
+}
+
+.OneColumnCLVTemplate .Contents .Column1 {
+	padding: 8px 0 5px 0;
+}
+
+.OneColumnCLVTemplate .Contents .Column1 .Image {
+	float: left;
+	margin-top: 3px;
+}
+
+.ACMERightTDContainer .OneColumnCLVTemplate .Contents .Column1 .Image {
+	float: left;
+}
+
+.OneColumnCLVTemplate .Contents .Column1 .Title {
+	 color: #565759;
+	 line-height: 18px;
+	 font-weight: bold;
+}
+
+.OneColumnCLVTemplate .Contents .Column1 .DateAndMail {
+	 color: #b39527;
+	 line-height: 18px;
+	 font-size: 10px;
+}
+
+.OneColumnCLVTemplate .Contents .Column1 .Summary {
+	color: #5a5a5a;
+	margin-bottom: 6px;
+}
+
+.ACMERightTDContainer .OneColumnCLVTemplate .Contents .Column1 .Summary {
+	color: #5a5a5a;
+	margin-bottom: 0;
+}
+
+.OneColumnCLVTemplate .Contents .Column1 .ReadLink {
+	 text-align: right;
+}
+
+.OneColumnCLVTemplate .Column1 .ReadLink a {
+	 color: #f58220;
+	 font-size: 11px;
+}
+
+.OneColumnCLVTemplate .Column1 .ReadLink a:hover {
+	 color: #0A4DA5;
+}
+
+.OneColumnCLVTemplate .Content .LastContent{
+	padding: 8px 0px 8px 70px;
+}
+
+.OneColumnCLVTemplate .Contents .Content .Title a {
+	 color: #5a5a5a;
+	 font-weight: bold;
+}
+
+.ACMELeftTDContainer .OneColumnCLVTemplate .Contents .Content .Title a {
+	 color: #f58220;
+	 font-weight: bold;
+}
+
+.ACMERightTDContainer .OneColumnCLVTemplate .Contents .Column1 img {
+	width: 51px;
+}
+
+.ACMELeftTDContainer .OneColumnCLVTemplate .Contents .Column1 img {
+	width: 49px;
+}
+
+.OneColumnCLVTemplate .Contents .Column1:after {
+ content: &quot;.&quot;;
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+
+.OneColumnCLVTemplate .Contents .Column1 {
+ !display: inline-block;
+ !zoom: 1;
+ !display: block; 
+}
+
+
+
+/************************
+ *** TWO COLUMNS CLV
+ ************************/
+
+
+.TwoColumnsCLVTemplate .CLV {
+	padding: 13px 10px 0;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+
+.TwoColumnsCLVTemplate .TitleBarM {
+	color: #2D4396;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.TwoColumnsCLVTemplate .Contents {
+	padding-top: 10px;
+}
+
+.TwoColumnsCLVTemplate .Contents .Column2 {
+	float: left;
+	width: 48%;
+    margin: 0 10px 10px 0;
+    padding: 0;
+}
+
+.TwoColumnsCLVTemplate .Contents .Image {
+	display: block;
+	float: left;
+}
+
+.TwoColumnsCLVTemplate .Contents .Image img {
+	width: 48px;
+}
+
+.TwoColumnsCLVTemplate .Contents .Content {
+	padding: 0px 0px 0px 60px;
+	color: #5a5a5a;
+	line-height: 14px;
+}
+
+.TwoColumnsCLVTemplate .Contents .Content .Title {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.TwoColumnsCLVTemplate .Contents .Content .Title a {
+	color: #5a5a5a;
+}
+
+.TwoColumnsCLVTemplate .Contents .LinkMore {
+	text-align: right;
+	padding: 5px 5px 0px 0px;
+	display: none;
+}
+
+.TwoColumnsCLVTemplate .Contents .LinkMore a {
+	color: #f58220;
+	text-decoration: none;
+}
+
+.TwoColumnsCLVTemplate .Contents .LinkMore a:hover {
+	text-decoration: underline;
+}
+
+
+
+/************************
+ *** PAGE SPECIFIC
+ ************************/
+
+.ACMEDocsTDContainer .UICLVPortlet{
+  min-width: none;
+}
+
+.ACMEDocsTDContainer .DocumentContent .Contents .Title {
+	 background: url('/portal/rest/jcr/repository/collaboration/sites%20content/live/acme/medias/images/GlobalImages/DocumentContentIcon.gif') no-repeat left center;
+	 padding-left: 20px;
+	 color: #565759;
+	 line-height: 22px;
+	 font-weight: bold;
+	 margin-top: 8px;
+}
+
+.ACMESearchTDContainer{
+  width: 140px;
+  padding-top: 30px;
+}
+
+.ACMESigninTDContainer a{
+  text-decoration: none;
+  color: #484848;
+}
+
+.ACMESigninTDContainer a:hover{
+  text-decoration: underline;
+}
+
+
+.ACMESigninTDContainer {
+  width: 335px;
+  padding-top: 33px;
+}
+
+#UIContainer-ACMEBanner{
+  padding: 10px;
+}
+
+.ACMELogoTDContainer{
+  width: auto;
+  padding-top: 10px;
+}
+
+#acme-latest-news .CLV, #acme-latest-documents .CLV {
+  width: 230px;
+  padding-bottom: 10px;
+}
+
+#acme-navigation {
+ height: 30px;
+}
+
+.UIFooterPortlet {
+ background: #DEDFDF;
+}
+
+.ACMESearchTDContainer .UIPresentationContainer{
+  position: reletive;
+  width: 150px;
+}
+
+/* Submit Button */
+.UIAction .LightBlueStyle .ButtonLeft {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/LightBlueStyle.gif') no-repeat left top;
+	padding-left: 4px;
+}
+
+.UIAction .LightBlueStyle .ButtonRight {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/LightBlueStyle.gif') no-repeat right top;
+	padding-right: 4px;
+}
+
+.UIAction .LightBlueStyle .ButtonMiddle {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/LightBlueStyle.gif') repeat-x left -22px;
+	line-height: 21px;
+}
+
+.UIAction a {
+	color: #20263f;
+}
+
+
+.UITableColumnContainer .UICLVFolderMode,.UITableColumnContainer .UIPresentationContainer,.UITableColumnContainer .Column1,.UITableColumnContainer .Column2,.UITableColumnContainer  .TwoColumnsCLVTemplate .CLV  {
+	_border:none;
+}
+
+.ContainerHoverClass,.ContainerHoverClassInner {	
+	_border: 1px solid #BFD5ED;
+	zoom: 1;
+}
+
+.UIPresentationContainer .OneColumnCLVTemplate .Contents .Column1,
+.UIPresentationContainer  .DocumentsCLVTemplate .Contents .Column1 {
+	border-bottom:1px solid #D6D6D6;
+}
+
+.UICategories .CategoryTitle .LeftTitle .CenterTitle {
+	height: auto;	
+}
+
+
+/* Hot news */
+#ACMEBody .UICLVHotNews .HotNews {
+	background: #F2F2F2;
+	border:1px solid #F2F2F2;
+	margin: 20px 0;
+	padding: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;	
+	-moz-box-shadow: 0 0 1px #FFFFFF inset;
+	-webkit-box-shadow: 0 0 1px #FFFFFF inset;
+	 box-shadow: 0 0 1px #FFFFFF inset;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .TopBoxHeader {
+	margin: 0 20px;
+	border-bottom: 1px solid #d6d6d6;
+	line-height: 30px;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .TopBoxHeader .Txt {
+	color: #696969;
+	font-weight: bold;
+	font-size: 14px;
+	float: left;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .RssIcon {
+	background: url(&quot;/presentation/skin/ContentListViewer/DefaultSkin/icons/RSS.gif&quot;) no-repeat right top;
+	color: #FE9832;
+	display: block;
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-top: 9px;
+	padding-right: 22px;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .HotNewsMainContent {
+	padding: 30px 20px 0;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .HotNewsMainContent .ContentHotNews {
+	padding-bottom: 35px;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .HotNewsMainContent .ImageHotNews {
+	float: right;
+	margin: 0 18px;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .HotNewsMainContent .TitleContentHotNews {
+	font-size: 12px;
+	font-weight: bold;
+	color: #f58220;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .HotNewsMainContent .TitleContentHotNews:hover {
+	text-decoration: underline;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .HotNewsMainContent .Summary {
+	color: #595959;
+	padding-top: 5px;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .HotNewsMainContent .Summary p {
+	margin-bottom: 0px;
+	text-align: justify;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .HotNewsMainContent .Date {
+	background: none;
+	font-size: 10px;
+	color: #9d9d9d;
+	padding-top: 5px;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .ReadLink {
+	padding: 0 20px 10px;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .ReadLink a {
+	font-size: 10px;
+	color: #9d9d9d;
+	text-decoration: underline;
+}
+
+#ACMEBody .UICLVHotNews .HotNews .ReadLink a:hover {
+	color: #f58220;
+	text-decoration: none;
+}
+
+/* Normal news */
+#ACMEBody .UICLVHotNews .NormalNews {
+	padding: 20px 40px 10px;
+}
+
+#ACMEBody .UICLVHotNews .NormalNews .ImageNormalNews {
+	float: left;
+}
+
+#ACMEBody .UICLVHotNews .NormalNews .ContentNormalNews {
+	padding-left: 100px;
+}
+
+#ACMEBody .UICLVHotNews .NormalNews .TitleContentNormalNews {
+	font-size: 12px;
+	font-weight: bold;
+	color: #f58220;
+}
+
+#ACMEBody .UICLVHotNews .NormalNews .TitleContentNormalNews:hover {
+	text-decoration: underline;
+}
+
+#ACMEBody .UICLVHotNews .NormalNews .ReadLink a {
+	font-size: 10px;
+	color: #9d9d9d;
+	text-decoration: underline;
+}
+
+#ACMEBody .UICLVHotNews .NormalNews .ReadLink a:hover {
+	color: #f58220;
+	text-decoration: none;
+}
+
+#ACMEBody .UICLVHotNews .NormalNews .Summary {
+	color: #595959;
+}
+
+#ACMEBody .UICLVHotNews .NormalNews .Summary p {
+	font-size: 11px;
+}
+
+#ACMEBody .UICLVHotNews .NormalNews .Date {
+	background: none;
+	font-size: 10px;
+	color: #9d9d9d;
+	padding-top: 5px;
+}
+
+/* Refresh button */
+#ACMEBody .UICLVHotNews .CaptionRefresh {
+	margin: 20px 0;
+}
+
+/* Category tree */
+#ACMECategories .UICLVFolderMode .TL {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/NewsBoxBg.png') no-repeat left -38px;
+	padding-left: 8px;
+}
+
+#ACMECategories .UICLVFolderMode .TR {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/NewsBoxBg.png') no-repeat right -38px;
+	padding-right: 8px;
+}
+
+#ACMECategories .UICLVFolderMode .TC {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/NewsBoxBg.png') repeat-x left -47px;
+	height: 7px;
+}
+
+#ACMECategories .UICLVFolderMode .ML {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/NorNewsBoxBgL.png') repeat-y left top;
+	padding-left: 8px;
+}
+
+#ACMECategories .UICLVFolderMode .MR {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/NorNewsBoxBgR.png') repeat-y right top;
+	padding-right: 8px;
+}
+
+#ACMECategories .UICLVFolderMode .MC {
+	background: #f7f7f7;
+	padding: 0 12px 20px;
+}
+
+#ACMECategories .UICLVFolderMode .BL {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/NewsBoxBg.png') no-repeat left -56px;
+	padding-left: 8px;
+}
+
+#ACMECategories .UICLVFolderMode .BR {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/NewsBoxBg.png') no-repeat right -56px;
+	padding-right: 8px;
+}
+
+#ACMECategories .UICLVFolderMode .BC {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/NewsBoxBg.png') repeat-x left -66px;
+	height: 8px;
+}
+
+#ACMECategories .UICLVFolderMode .Txt {
+	color: #696969;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid #D6D6D6;
+	line-height: 30px;
+}
+
+#ACMECategories .UICLVFolderMode .NewContent {
+	border: none;
+	margin-top: 20px;
+	padding: 0 20px;
+}
+
+#ACMECategories .UICLVFolderMode .NewContent a.CategoryLabel {
+	color: #f58220;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px 0 5px 15px;
+	border-bottom: 1px dotted #D6D6D6;
+}
+
+/* Question page */
+.ContactUSColumnContainerLeftTDContainer {
+	padding: 25px 20px 40px 25px;
+}
+
+.ContactUSColumnContainerRightTDContainer {
+	padding: 25px 25px 0 0;
+	width: 200px;
+}
+
+.ContactUSColumnContainerLeftTDContainer .UIFCCPortlet {
+	background: none;
+	padding: 0;
+}
+
+.ContactUSColumnContainerLeftTDContainer .UIForm .HorizontalLayout {
+	background: none;
+	border: none;
+	padding: 0 0 0 80px;
+}
+
+.ContactUSColumnContainerLeftTDContainer .UIForm .UIFormGrid td.FieldLabel {
+	padding:5px 20px 5px 0;
+	text-align:right;
+	vertical-align:top;
+}
+
+.ContactUSColumnContainerLeftTDContainer .UIForm .HorizontalLayout select {
+	font-size:11px;
+	width:340px;
+	border: 1px solid #e3e9ef;
+	border-top: 1px solid #abadb3;
+	height: 20px;
+}
+
+.ContactUSColumnContainerLeftTDContainer .UIForm .HorizontalLayout input {
+	font-size:11px;
+	width:337px;
+	border: 1px solid #e3e9ef;
+	border-top: 1px solid #abadb3;
+	height: 20px;
+}
+
+.ContactUSColumnContainerLeftTDContainer .UIForm .HorizontalLayout textarea {
+	border:1px solid #B7B7B7;
+	font-size:11px;
+	height:75px;
+	width:340px;
+	border: 1px solid #e3e9ef;
+	border-top: 1px solid #abadb3;
+}
+
+.ContactUSColumnContainerLeftTDContainer .UIForm .HorizontalLayout .GuideLine { 
+	display: none;
+}
+
+.ContactUSColumnContainerLeftTDContainer .UIAction {
+	padding-left: 167px;
+}
+
+.ContactUSColumnContainerLeftTDContainer .UIAction .ActionContainer {
+	margin: 0;
+}
+
+/* News Item Pages */
+.UIWorkingWorkspace .UIPresentationContainer .Title {
+	padding: 20px 20px 0;
+	color: #282828;
+	font-size: 24px;
+}
+
+.UIWorkingWorkspace .UIPresentationContainer .DateAndMail {
+	padding: 5px 20px;
+	font-size: 11px;
+	color: #c7a400;
+}
+
+.UIWorkingWorkspace .UIOptionBar {
+	background: none;
+	border-top: 1px dotted #9b9a9a;
+	border-bottom: 1px dotted #9b9a9a;
+	height: 31px;
+	line-height: 31px;
+	margin: 0 20px 0;
+	overflow: hidden;
+}
+
+.UIWorkingWorkspace .UISingleContentViewerPortlet .WebContentContainer {
+	padding: 15px 20px 15px;
+}
+
+.UIWorkingWorkspace .UISingleContentViewerPortlet .WebContentContainer p {
+	padding: 8px 0;
+}
+
+.UIWorkingWorkspace .UIPresentationContainer .UIOptionBar .BackButton {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/BackIcon27x26.png') no-repeat center center;
+	cursor: pointer;
+	float: left;
+	height: 30px;
+	width: 27px;
+	padding-left: 0;
+}
+
+.UIWorkingWorkspace .UIPresentationContainer .UIOptionBar .PrintIcon {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/PrintIcon27x26.png') no-repeat left bottom;
+	padding-left: 35px;
+	color: #f58220;
+	cursor: pointer;
+	display: block;
+	float: right;
+	height: 28px;
+	margin: 0;
+	font-size: 11px;
+}
+
+/* Product page */
+#ACMEBody {
+	padding: 0;
+}
+
+#ACMEBody .UICLVFolderMode {
+	border: none;
+}
+
+.SimpleHorizontal .CategoriesContainer {
+	width: auto;
+}
+
+.SimpleHorizontal .CategoriesContainer .TitleBarL {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/CompanyBarH.png') no-repeat left top;
+	padding-left: 3px;
+}
+
+.SimpleHorizontal .CategoriesContainer .TitleBarR {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/CompanyBarH.png') no-repeat right -34px;
+	padding-right: 3px;
+}
+
+.SimpleHorizontal .CategoriesContainer .TitleBarM {
+	background: url('/portal/rest/jcr/repository/collaboration/sites content/live/acme/medias/images/GlobalImages/CompanyBarH.png') repeat-x left -68px;
+	color: #565759;
+	font-weight: bold;
+	height: 33px;
+	line-height: 33px;
+	padding-left: 10px;
+}
+
+.SimpleHorizontal .CategoriesContainer .CategoryLabel {
+	color: #666666;
+	margin-top: 8px;
+}
+
+.UIPortal {
+	width: 984px;
+	margin: 0 auto;
+	background: #9d9d9d;
+	
+}

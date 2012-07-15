@@ -34,5 +34,23 @@
 		<css-priority>6</css-priority>
 		<overwrite>true</overwrite>
 	</portal-skin>
+
+    <javascript>
+        <param>
+            <js-module>openparliament.jquery.core</js-module>
+            <js-path>/javascript/jquery/jquery.js</js-path>
+            <js-priority>90</js-priority>
+        </param>
+        <param>
+            <js-module>openparliament.jquery.easing</js-module>
+            <js-path>/javascript/jquery/jquery.easing.js</js-path>
+            <js-priority>95</js-priority>
+        </param>
+        <param>
+            <js-module>openparliament.jquery.script</js-module>
+            <js-path>/javascript/jquery/script.js</js-path>
+            <js-priority>100</js-priority>
+        </param>
+    </javascript>
 	
 </gatein-resources>

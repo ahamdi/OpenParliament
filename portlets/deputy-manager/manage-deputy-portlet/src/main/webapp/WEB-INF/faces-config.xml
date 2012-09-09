@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
+              version="2.0">
+
+    <managed-bean>
+        <managed-bean-name>manageDeputyBean</managed-bean-name>
+        <managed-bean-class>tn.openparliament.managedBeans.ManageDeputyBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <navigation-rule>
+        <navigation-case>
+            <from-action>deputyCreated</from-action>
+            <to-view-id>/jsf/edit.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <navigation-case>
+            <from-action>errorDeputyCreated</from-action>
+            <to-view-id>/jsf/help.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+</faces-config>

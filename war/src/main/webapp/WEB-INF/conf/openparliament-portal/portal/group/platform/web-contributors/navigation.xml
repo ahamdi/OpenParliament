@@ -76,6 +76,13 @@
 		    <label>#{administration.workflowAdministration}</label>
 		    <page-reference>group::platform/web-contributors::workflowAdministration</page-reference>
 	    </node>	 
+	    
+	<node>
+      <uri>answers</uri>
+      <name>answers</name>
+      <label>Gestion de la FAQ</label>
+      <page-reference>group::platform/web-contributors::answers</page-reference>
+    </node>
 
   </page-nodes>
 </node-navigation>

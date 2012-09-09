@@ -14,4 +14,8 @@
 # Maven structure files
 /war/target
 /config/target
-
+/portlets/target
+/portlets/deputy-manager/manage-deputy-portlet/target
+/portlets/deputy-manager/ManageDeputyService/target
+/portlets/deputy-manager/.idea/
+/resources/target/

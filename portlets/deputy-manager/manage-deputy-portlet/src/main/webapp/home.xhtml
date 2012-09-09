@@ -1,0 +1,28 @@
+<f:view id="ajaxEcho" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html"
+        xmlns:a4j="http://richfaces.org/a4j" xmlns:rich="http://richfaces.org/rich"
+
+   >
+   <h:head/>
+   <h:body>
+      <h2>Deputy Manager</h2>
+      <p>Créer un nouveau deputé</p>
+      <h:form id="form1">
+         Nom: <h:inputText id="nom" value="#{manageDeputyBean.deputyname}">    </h:inputText>
+         <br/>
+         Prenom: <h:inputText id="prenom" value="#{manageDeputyBean.deputyPrenom}"></h:inputText>
+          <br/>
+         Username: <h:inputText id="username" value="#{manageDeputyBean.deputyUsername}"></h:inputText>
+
+         Email: <h:inputText id="email" value="#{manageDeputyBean.deputyEmail}"></h:inputText>
+
+         mot de passe: <h:inputText id="pasword" value="#{manageDeputyBean.deputyPassword}"></h:inputText>
+
+         <h:commandButton id="createDeputy" value="Creer Deputé" actionListener="#{manageDeputyBean.createDeputy}">
+         </h:commandButton>
+         <h:messages/>
+      </h:form>
+   </h:body>
+</f:view>

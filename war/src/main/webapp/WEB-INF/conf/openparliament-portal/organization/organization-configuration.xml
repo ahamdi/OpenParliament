@@ -73,64 +73,16 @@
 								<value>
 									<object type="org.exoplatform.services.organization.OrganizationConfig$Group">
 										<field  name="name">
-											<string>organization</string>
+											<string>deputy</string>
 										</field>
 										<field  name="parentId">
-											<string/>
+											<string></string>
 										</field>
 										<field  name="description">
-											<string>the organization group</string>
+											<string>the deputies group</string>
 										</field>
 										<field  name="label">
-											<string>Organization</string>
-										</field>
-									</object>
-								</value>
-								<value>
-									<object type="org.exoplatform.services.organization.OrganizationConfig$Group">
-										<field  name="name">
-											<string>management</string>
-										</field>
-										<field  name="parentId">
-											<string>/organization</string>
-										</field>
-										<field  name="description">
-											<string>the /organization/management group</string>
-										</field>
-										<field  name="label">
-											<string>Management</string>
-										</field>
-									</object>
-								</value>
-								<value>
-									<object type="org.exoplatform.services.organization.OrganizationConfig$Group">
-										<field  name="name">
-											<string>executive-board</string>
-										</field>
-										<field  name="parentId">
-											<string>/organization/management</string>
-										</field>
-										<field  name="description">
-											<string>the /organization/management/executive-board group</string>
-										</field>
-										<field  name="label">
-											<string>Executive Board</string>
-										</field>
-									</object>
-								</value>
-								<value>
-									<object type="org.exoplatform.services.organization.OrganizationConfig$Group">
-										<field  name="name">
-											<string>human-resources</string>
-										</field>
-										<field  name="parentId">
-											<string>/organization/management</string>
-										</field>
-										<field  name="description">
-											<string>the /organization/management/human-resource group</string>
-										</field>
-										<field  name="label">
-											<string>Human Resources</string>
+											<string>Le groupe de deputés</string>
 										</field>
 									</object>
 								</value>
@@ -141,7 +93,7 @@
 								<value>
 									<object type="org.exoplatform.services.organization.OrganizationConfig$User">
 										<field name="userName">
-											<string>${exo.super.user}</string>
+											<string>root</string>
 										</field>
 										<field name="password">
 											<string>gtn</string>

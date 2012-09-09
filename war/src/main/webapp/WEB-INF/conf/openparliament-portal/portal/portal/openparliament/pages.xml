@@ -514,7 +514,7 @@
     </container>
   </page>
 
-  <page>
+  <!--page>
     <name>products</name>
     <title>Products</title>
     <access-permissions>Everyone</access-permissions>
@@ -733,7 +733,7 @@
 
       
     </container>
-  </page>
+  </page-->
 
   <page>
     <name>searchResult</name>
@@ -1316,8 +1316,8 @@
   </page>
 
   <page>
-		<name>newAccount</name>
-		<title>newAccount</title>
+		<name>register</name>
+		<title>S'enregistrer</title>
 		<access-permissions>Everyone</access-permissions>
 		<edit-permission>*:/platform/administrators</edit-permission>
 		<container id="Register_Page" template="system:/groovy/portal/webui/container/UITableColumnContainer.gtmpl">
@@ -1436,23 +1436,255 @@
       <show-application-mode>false</show-application-mode>
     </portlet-application>
   </page>
-
-    <page>
-        <name>forum</name>
-        <title>Forum</title>
-        <access-permissions>*:/platform/users</access-permissions>
-        <edit-permission>*:/platform/administrators</edit-permission>
-        <portlet-application>
-            <portlet>
-                <application-ref>forum</application-ref>
-                <portlet-ref>ForumPortlet</portlet-ref>
-            </portlet>
-            <title>Forum Portlet</title>
-            <access-permissions>Everyone</access-permissions>
-            <show-info-bar>false</show-info-bar>
-            <show-application-state>false</show-application-state>
-            <show-application-mode>false</show-application-mode>
-        </portlet-application>
-    </page>
+  
+  <page>
+    <name>forum</name>
+    <title>Forum</title>
+    <access-permissions>Everyone</access-permissions>
+    <edit-permission>*:/platform/administrators</edit-permission>
+    <portlet-application>
+      <portlet>
+        <application-ref>forum</application-ref>
+        <portlet-ref>ForumPortlet</portlet-ref>
+      </portlet>
+      <title>Forum Portlet</title>
+      <access-permissions>Everyone</access-permissions>
+      <show-info-bar>false</show-info-bar>
+      <show-application-state>false</show-application-state>
+      <show-application-mode>false</show-application-mode>
+    </portlet-application>
+  </page>
+  
+  <page>
+    <name>faq</name>
+    <title>FAQ</title>
+    <access-permissions>Everyone</access-permissions>
+    <edit-permission>*:/platform/administrators</edit-permission>
+    <portlet-application>
+      <portlet>
+        <application-ref>faq</application-ref>
+        <portlet-ref>FAQPortlet</portlet-ref>
+      </portlet>
+      <title>FAQ Portlet</title>
+      <access-permissions>Everyone</access-permissions>      
+      <show-info-bar>false</show-info-bar>
+      <show-application-state>false</show-application-state>
+      <show-application-mode>false</show-application-mode>
+    </portlet-application>
+  </page>
+  
+  <page>
+    <name>wiki</name>
+    <title>Wiki</title>
+    <access-permissions>Everyone</access-permissions>
+    <edit-permission>*:/platform/administrators</edit-permission>
+    <portlet-application>
+      <portlet>
+        <application-ref>wiki</application-ref>
+        <portlet-ref>WikiPortlet</portlet-ref>
+      </portlet>
+      <title>Wiki Portlet</title>
+      <access-permissions>Everyone</access-permissions>
+      <show-info-bar>false</show-info-bar>
+      <show-application-state>false</show-application-state>
+      <show-application-mode>false</show-application-mode>
+    </portlet-application>
+  </page>
+  
+  <page>
+    <name>contactus</name>
+    <title>Contact Us</title>
+    <access-permissions>Everyone</access-permissions>
+    <edit-permission>*:/platform/web-contributors</edit-permission>
+	<container id="ContactUSRootContainer" template="system:/groovy/portal/webui/container/UITableColumnContainer.gtmpl">
+		<access-permissions>Everyone</access-permissions>
+		<container id="ContactUSAutofitColumnContainer" template="system:/groovy/portal/webui/container/UITableAutofitColumnContainer.gtmpl">
+			<access-permissions>Everyone</access-permissions>
+			<container id="ContactUSColumnContainerLeft" template="system:/groovy/portal/webui/container/UIContainer.gtmpl">
+				<access-permissions>Everyone</access-permissions>
+				<container id="ContactUSColumnContainerLeftTop" template="system:/groovy/portal/webui/container/UIContainer.gtmpl" height="100px">
+					<access-permissions>Everyone</access-permissions>
+					<portlet-application>
+					  <portlet>
+						<application-ref>presentation</application-ref>
+						<portlet-ref>SingleContentViewer</portlet-ref>
+						<preferences>
+						  <preference>
+							<name>repository</name>
+							<value>repository</value>
+							<read-only>false</read-only>
+						  </preference>
+						  <preference>
+							<name>workspace</name>
+							<value>collaboration</value>
+							<read-only>false</read-only>
+						  </preference>
+						  <preference>
+							<name>nodeIdentifier</name>
+							<value>/sites content/live/acme/web contents/site artifacts/contact-us-intro</value>
+							<read-only>false</read-only>
+						  </preference>
+						  <preference>
+							<name>ShowQuickEdit</name>
+							<value>true</value>
+							<read-only>false</read-only>
+						  </preference>
+						  <preference>
+							<name>ShowPrintAction</name>
+							<value>false</value>
+							<read-only>false</read-only>
+						  </preference>
+						  <preference>
+							<name>ShowTOC</name>
+							<value>false</value>
+							<read-only>false</read-only>
+						  </preference>
+						  <preference>
+							<name>ShowTags</name>
+							<value>false</value>
+							<read-only>false</read-only>
+						  </preference>
+						  <preference>
+							<name>ShowCategories</name>
+							<value>false</value>
+							<read-only>false</read-only>
+						  </preference>
+						  <preference>
+							<name>ShowTitle</name>
+							<value>false</value>
+							<read-only>false</read-only>
+						  </preference>
+						</preferences>
+					  </portlet>
+					  <title>Homepage</title>
+					  <access-permissions>Everyone</access-permissions>
+					  <show-info-bar>false</show-info-bar>
+					  <show-application-state>false</show-application-state>
+					  <show-application-mode>false</show-application-mode>
+					</portlet-application>
+				</container>
+				<container id="ContactUSColumnContainerLeftBottom" template="system:/groovy/portal/webui/container/UIContainer.gtmpl">
+					<access-permissions>Everyone</access-permissions>
+					<portlet-application>
+					  <portlet>
+						<application-ref>formgenerator</application-ref>
+						<portlet-ref>FastContentCreatorBasicPortlet</portlet-ref>
+						<preferences>
+						  <preference>
+							<name>redirectPath</name>
+							<value>/portal/public/acme/contactus/confirmation</value>
+						  </preference>
+						  <preference>
+							<name>mode</name>
+							<value>basic</value>
+						  </preference>
+						  <preference>
+							<name>workspace</name>
+							<value>collaboration</value>
+						  </preference>
+						  <preference>
+							<name>repository</name>
+							<value>repository</value>
+						  </preference>
+						  <preference>
+							<name>isRedirect</name>
+							<value>true</value>
+						  </preference>
+						  <preference>
+							<name>path</name>
+							<value>/sites content/live/acme/documents</value>
+						  </preference>
+						  <preference>
+							<name>saveMessage</name>
+							<value>Your comment has been received. We appreciate your feedback.</value>
+						  </preference>
+						  <preference>
+							<name>saveButton</name>
+							<value>Send</value>
+						  </preference>
+						  <preference>
+							<name>type</name>
+							<value>exo:contact_us</value>
+							<read-only>false</read-only>
+						  </preference>
+						  <preference>
+							<name>action</name>
+							<value>exo:sendMailAction</value>
+							<read-only>false</read-only>
+						  </preference>
+						</preferences>
+					  </portlet>
+					  <title>Contact Us</title>
+					  <access-permissions>Everyone</access-permissions>
+					  <show-info-bar>false</show-info-bar>
+					  <show-application-state>false</show-application-state>
+					  <show-application-mode>false</show-application-mode>
+					</portlet-application>
+				</container>
+			</container>
+			<container id="ContactUSColumnContainerRight" template="system:/groovy/portal/webui/container/UIContainer.gtmpl" width="250px">
+				<access-permissions>Everyone</access-permissions>
+				<portlet-application>
+				  <portlet>
+					<application-ref>presentation</application-ref>
+					<portlet-ref>SingleContentViewer</portlet-ref>
+					<preferences>
+					  <preference>
+						<name>repository</name>
+						<value>repository</value>
+						<read-only>false</read-only>
+					  </preference>
+					  <preference>
+						<name>workspace</name>
+						<value>collaboration</value>
+						<read-only>false</read-only>
+					  </preference>
+					  <preference>
+						<name>nodeIdentifier</name>
+						<value>/sites content/live/acme/web contents/site artifacts/contact-us-countries</value>
+						<read-only>false</read-only>
+					  </preference>
+					  <preference>
+						<name>ShowQuickEdit</name>
+						<value>true</value>
+						<read-only>false</read-only>
+					  </preference>
+					  <preference>
+						<name>ShowPrintAction</name>
+						<value>false</value>
+						<read-only>false</read-only>
+					  </preference>
+					  <preference>
+						<name>ShowTOC</name>
+						<value>false</value>
+						<read-only>false</read-only>
+					  </preference>
+					  <preference>
+						<name>ShowTags</name>
+						<value>false</value>
+						<read-only>false</read-only>
+					  </preference>
+					  <preference>
+						<name>ShowCategories</name>
+						<value>false</value>
+						<read-only>false</read-only>
+					  </preference>
+					  <preference>
+						<name>ShowTitle</name>
+						<value>false</value>
+						<read-only>false</read-only>
+					  </preference>
+					</preferences>
+				  </portlet>
+				  <title>Homepage</title>
+				  <access-permissions>Everyone</access-permissions>
+				  <show-info-bar>false</show-info-bar>
+				  <show-application-state>false</show-application-state>
+				  <show-application-mode>false</show-application-mode>
+				</portlet-application>
+			</container>
+		</container>
+	</container>
+  </page>
 
 </page-set>

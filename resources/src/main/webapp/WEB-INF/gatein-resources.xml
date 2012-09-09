@@ -27,13 +27,27 @@
 	
 	<!-- portal Skin -->
 	
-    <portal-skin>
+    <!--portal-skin>
 		<skin-name>Default</skin-name>
 		<skin-module>Platform</skin-module>
 		<css-path>/skin/Stylesheet.css</css-path>
 		<css-priority>6</css-priority>
 		<overwrite>true</overwrite>
-	</portal-skin>
+	</portal-skin-->
+    <portal-skin>
+        <skin-name>Default</skin-name>
+        <skin-module>sliderLayout</skin-module>
+        <css-path>/skin/layout.css</css-path>
+        <css-priority>6</css-priority>
+        <overwrite>true</overwrite>
+    </portal-skin>
+    <portal-skin>
+        <skin-name>Default</skin-name>
+        <skin-module>sliderstyle</skin-module>
+        <css-path>/skin/style1.css</css-path>
+        <css-priority>6</css-priority>
+        <overwrite>true</overwrite>
+    </portal-skin>
 
     <javascript>
         <param>
